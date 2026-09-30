@@ -8,10 +8,12 @@ import Training from "./components/Training";
 import Education from "./components/Education";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-
-function App() {
+import { Analytics } from "@vercel/analytics/next"
+function App({ Component, pageProps }) {
   return (
     <>
+     <Component {...pageProps} />
+      <Analytics />
       <Navbar />
 
       <main>
