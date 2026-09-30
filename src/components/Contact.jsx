@@ -22,8 +22,8 @@ function Contact() {
 
         <div className="contact-links">
 
-          <a href="mailto:your-email@example.com">
-            your-email@example.com
+          <a href="mailto:narendarreddypaindla@gmail.com">
+            narendarreddypaindla@gmail.com
           </a>
 
           <a
