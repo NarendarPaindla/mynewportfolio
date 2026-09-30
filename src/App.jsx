@@ -13,7 +13,7 @@ function App() {
   return (
     <>
 
-      <Analytics />
+ 
       <Navbar />
 
       <main>
@@ -28,6 +28,7 @@ function App() {
       </main>
 
       <Footer />
+       <Analytics />
     </>
   );
 }
